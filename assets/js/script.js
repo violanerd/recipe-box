@@ -77,7 +77,7 @@ var random = function() {
     $('#listElements').empty();
     $('#listElements').addClass('recipeFormat');
 
-    var ranUrl = "https://api.edamam.com/api/recipes/v2?type=public&q=&app_id=1d67f783&app_key=4f2864d94a10bc0430788affdb03e6f6&diet=balanced&random=true";
+    var ranUrl = "https://api.edamam.com/api/recipes/v2?type=public&q=&app_id=4cfc67a3&app_key=299547bfc788461837e8d7187f2ea059&diet=balanced&random=true";
     
     fetch(ranUrl)
     .then(function(response) {
